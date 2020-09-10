@@ -13,8 +13,7 @@ if (a>=b) :
 else :  
   n = b-a+1
 
-# วนโดยใช้ for loop จำนวน n รอบ
-for i in range (n) :
+for i in range (n) :            # วนโดยใช้ for loop จำนวน n รอบ
   if (a<b):                     # ถ้า a < b ให้แสดงจากน้อยไปมาก คือ แสดงจาก a แล้วบวกเพิ่มอีก 1 จนครบ n รอบ
     print (a,end=' ')
     a = a+1
