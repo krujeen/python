@@ -1,10 +1,8 @@
 
-n = 10
-
 # การเพิ่มข้อมูลใน list โดยใช้ while
 list1 = []
 i = 0
-
+n = 10
 while i < n:
     x = int(input())
     list1.append(x)
