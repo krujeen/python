@@ -2,7 +2,7 @@
 i = 1
 while i < 11:
   if (i == 5):
-    break
+    break            # จะไม่ทำคำสั่งหลังจาก break แล้วออกจากลูป
   print(i)
   i += 1
   
@@ -12,7 +12,7 @@ i = 0
 while i < 10:
   i += 1
   if (i == 5):
-    break
+    break             # จะไม่ทำคำสั่งหลังจาก break แล้วออกจากลูป
   print(i)
   
 
@@ -21,5 +21,5 @@ i = 0
 while i < 10:
   i += 1
   if (i == 5):
-    continue
+    continue          # จะไม่ทำคำสั่งหลังจาก continue แล้วกลับเข้าไปวนลูปต่อ
   print(i)
