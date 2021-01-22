@@ -1,10 +1,11 @@
-n = int(input())
-lists2 = []
-sum = 0
+n = int(input())   #รับจำนวนรอบที่ต้องการเก็บใน list
+lists2 = []        #ประกาศ list ว่าง
+sum = 0            #เริ่มให้ค่า sum เท่ากับ 0
 
+#รับค่าเอาไปเก็บ list
 for i in range(n):
-    x = int(input())
-    lists2.append(x)
+    x = int(input())    #รับจำนวนเต็มไปเก็บใน x
+    lists2.append(x)    #เพิ่มค่าใน list
     sum = sum+x
 
 for i in range(n):
